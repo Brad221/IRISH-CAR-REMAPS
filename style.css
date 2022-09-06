@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+h1, h2 { 
+    font-family: 'Bangers', cursive;
+}
+
+.intro{ 
+    width: 100%;
+    height:600px;
+}
+
+.img{      
+    width: 100%;
+    height: 600px;
+    background: url(image/bmw.jpg) no-repeat ;  
+    background-size: cover;      
+}
+
+#logo {
+    float: left;  
+    text-decoration: none;
+    margin-left: 20px;
+    color: purple;
+}
+
+.navbar { 
+    height: 80px;
+    background-color: lightblue;
+}
+
+.navbar, #logo { 
+    line-height: 75px;
+}
+
+.navbar ul { 
+    float: right;
+    letter-spacing: 2px;
+    list-style: none;   
+}
+
+.navbar ul li { 
+    display: inline;
+    margin: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family:'Bangers', cursive; ;
+}
+
+.navbar  a:hover { 
+    border-bottom: 3px solid black;
+}
+
+.about {  
+    background-color: lightcyan;
+    height: 1000px;
+    background: url(image/pexels-pixabay-248747.jpg) no-repeat ;  
+    background-size: cover;
+}
+
+.about ,p ,li { 
+    text-align: center;
+    font-size: large;
+    color: white;    
+}
+
+#sign{ 
+    text-align: center;
+    width: 100%;
+    height: 500px;   
+}
+
+.car, .car2 { 
+    background-color: green;
+    padding: 80px;
+    margin: 30px;
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.9;
+    width: 50%;    
+}
+
+.car audio { 
+    padding: 40px;
+    width: 100%;
+    margin:10px
+}
+
+.car2 ul li { 
+    list-style-type: none;
+    margin: 1%;
+    padding: 20px;  
+}
+
+.img2{      
+    width: 100%;
+    height: auto;
+    background: url(image/ssss.jpg) no-repeat ;  
+    background-size: cover;     
+}
+
+.form { 
+    background-color: lightgrey;
+    width: 200px;
+    padding: 80px;
+    height: 340px;
+    opacity: 0.9;
+    margin: auto;
+}
+  
+input {
+    width: 100%;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 30px 0 ;
+    box-sizing: border-box;
+  }
+
+.submit {
+    width: 100%;
+    padding: 12px ;
+    background-color: green;
+    margin: 30px 0 ;
+    cursor: pointer;
+}
+
+.submit:hover { 
+    background-color: blue;
+}
+
+.footer { 
+    height: 270px;
+    background-color: skyblue;
+}
+
+.footer h1, h3 { 
+    text-align: center;
+    padding: 10px ;
+}
+
+.social { 
+    text-align: center;
+}
+
+.social li { 
+    display: inline;
+    margin: 1%;
+    padding: 30px;   
+}
+
+@media only screen and (max-width: 600px) {
+    
+#logo {
+    font-size: 100%;  
+    }
+
+
+.navbar ul li { 
+    display: inline;
+    margin: 15px;           
+    }
+
+.intro{ 
+    width: 100%;
+    height:200px;
+    }
+
+.form { 
+    background-color: lightgrey;
+    width: 50%;
+    padding: 80px;
+    height: 340px;
+    opacity: 0.9;
+    margin: auto;
+    
+    }
+
+.car, .car2 { 
+    background-color: green;
+    padding: 80px;
+    margin: 0%;
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.9;
+    }
+
+.car audio { 
+    padding: 40px;
+    width: 100%;
+    margin:0;
+    }
+    
+.img{ 
+    width: 100%;
+    height: 200px;
+    background: url(image/bmw.jpg) no-repeat ;  
+    background-size: cover;    
+    }
+
+.footer { 
+    height: 300px;
+    }   
+  
+.social { 
+        text-align: center;
+    }
+    
+.social li { 
+        display: inline;
+        margin: 1%;
+        padding: 10px;   
+    }
+
+}
