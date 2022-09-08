@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#IRISH CAR DRIFTING
 
 Welcome Brad221,
 
